@@ -37,10 +37,12 @@ You can use any of the following languages to complete the challenge:
 - Python 
 - Kotlin
 
-You are also free to use any framework and library you find suitable. You can use an in memory database or any database engine you are used to, like PostgreSQL, MySQL, Mongo ,etc.
+You are also free to use any framework and library you find suitable. You can use an in memory database or any database engine you are used to, like PostgreSQL, MySQL, Mongo, etc.
 
 ## Additional Points
-Create a docker image for running the API on a container CI/CD Pipelines with test checking
-Usage of Gitflow branching strategy. Read more here
-Deploy your app to a cloud solution (AWS,GCP,Heroku,etc.) Swagger Documentation.
-Any cool idea you have that might improve the project
+- Create a docker image for running the API on a container CI/CD
+- Pipelines with test checking
+- Usage of Gitflow branching strategy. Read more here
+- Deploy your app to a cloud solution (AWS,GCP,Heroku,etc.)
+- Swagger Documentation.
+- Any cool idea you have that might improve the project
