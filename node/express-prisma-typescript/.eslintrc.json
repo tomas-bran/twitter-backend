@@ -7,7 +7,28 @@
   "overrides": [],
   "parserOptions": {
     "ecmaVersion": "latest",
-    "sourceType": "module"
+    "sourceType": "module",
+    "project": ["tsconfig.json"]
   },
-  "rules": {}
+  "rules": {
+    "@typescript-eslint/strict-boolean-expressions": [
+      2,
+      {"allowNullableString":  true,
+        "allowNullableNumber":  true
+      }
+    ],
+    "@typescript-eslint/no-misused-promises": [
+      "error",
+      {
+        "checksVoidReturn": false
+      }
+    ],
+    "@typescript-eslint/no-extraneous-class": [
+      2,
+      {
+        "allowStaticOnly": true
+      }
+    ]
+  }
+
 }
